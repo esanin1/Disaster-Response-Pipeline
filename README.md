@@ -61,6 +61,7 @@ The main outcome of the project is the ML model model.pkl
 ## Licensing, Authors, Acknowledgements<a name="licensing"></a>
 
 No licensing is required to leverage any part of this repository.
+
 A big credit to:
 1. Udacity coursework "Data Scientist" Section which code samples and templated are the base of this project.
 2. Stack Overflow for many helpfull code development tips.
