@@ -11,7 +11,7 @@
 ## Installation <a name="installation"></a>
 
 All the required libraries are avaibale in the Udacity workspace environemnt.
-The latest Anaconda3 2022.10 and Python 3.9+ are sufficient in a local environment (PyCharm).
+The latest Anaconda3 2022.10 and Python 3.9+ are sufficient in a local environment (PyCharm 2020.3 community edition).
  
 Bug Note: Version 2.0.0 (January 26, 2023) of SQLAlchemy is not compatible with earlier versions of pandas.
 -> latest pandas version 1.5.3 is required
@@ -63,7 +63,7 @@ The main outcome of the project is the ML model model.pkl
 No licensing is required to leverage any part of this repository.
 
 A big credit to:
-1. Udacity coursework "Data Scientist" Section which code samples and templated are the base of this project.
+1. Udacity coursework "Data Scientist" Section which code samples and templates are the base of this project - I leveraged some in my project.
 2. Stack Overflow for many helpfull code development tips.
 
 
