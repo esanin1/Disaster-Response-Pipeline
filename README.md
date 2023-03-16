@@ -51,7 +51,7 @@ The ETL pipeline process_data.py as well as the source dsata files and the clean
 
 The ML pipeline ML train_classifier.py and the ML model.pkl are in the Models folder.
 
-The Flask application and HTNL templates are in the App folder
+The Flask application and HTML templates are in the App folder
 
 
 ## Results<a name="results"></a>
