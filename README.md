@@ -11,7 +11,7 @@
 ## Installation <a name="installation"></a>
 
 All the required libraries are avaibale in the Udacity workspace environemnt.
-The latest Anaconda2 2022.10 Python 3.9+ are sufficient in a local environment(PyCharm) taking into account this bug note:
+The latest Anaconda3 2022.10 and Python 3.9+ are sufficient in a local environment (PyCharm).
  
 Bug Note: Version 2.0.0 (January 26, 2023) of SQLAlchemy is not compatible with earlier versions of pandas.
 -> latest pandas version 1.5.3 is required
@@ -19,10 +19,15 @@ Bug Note: Version 2.0.0 (January 26, 2023) of SQLAlchemy is not compatible with 
 
 
 ## Run Instructions <a name="run_instructios"></a>
-1. Run the following commands in the project's root directory to set up the database and model.
-Run the ETL pipeline that cleans data and stores in database
+Adopted from: Udacity coursework "Data Scientist".
+
+Run the following commands in the project's root directory to set up the database and model.
+
+
+1. Run the ETL pipeline that cleans data and stores in database
    
 `python /data/process_data.py data/disaster_messages.csv data/disaster_categories.csv data/<DisasterResponse.db> <Messages_Categories>`
+
 2. Run the ML pipeline that trains classifier and saves the model 
    
 `python models/train_classifier.py /data/<DisasterResponse.db> <Messages_Categories> models/<model.pkl>`
@@ -31,7 +36,7 @@ Run the ETL pipeline that cleans data and stores in database
    
 `python run.py`
 
-4. Click the `PREVIEW` button to open the homepage to view the visualization part 
+4. Click the `PREVIEW` button to open the homepage to view the visualization part. 
 
 ## Project Motivation<a name="motivation"></a>
 
