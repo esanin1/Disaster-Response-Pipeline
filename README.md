@@ -32,9 +32,9 @@ Run the following commands in the project's root directory to set up the databas
    
 `python models/train_classifier.py /data/<DisasterResponse.db> <Messages_Categories> models/<model.pkl>`
 
-3. From `app` directory run the web app:
+3. Run the web app that is in `app` folder :
    
-`python run.py`
+`python app/run.py`
 
 4. Click the `PREVIEW` button to open the homepage to view the visualization part. 
 
