@@ -21,7 +21,7 @@ Bug Note: Version 2.0.0 (January 26, 2023) of SQLAlchemy is not compatible with 
 ## Run Instructions <a name="run_instructios"></a>
 Adopted from: Udacity coursework "Data Scientist".
 
-Run the following commands in the project's root directory to set up the database and model.
+Run the following commands in the project's `root directory` to set up the database and model.
 
 
 1. Run the ETL pipeline that cleans data and stores in database
@@ -34,7 +34,7 @@ Run the following commands in the project's root directory to set up the databas
 
 3. Run the web app that is in `app` folder :
    
-`python app/run.py`
+`python run.py`
 
 4. Click the `PREVIEW` button to open the homepage to view the visualization part. 
 
@@ -45,13 +45,13 @@ machine learning and visualization of results.
 
 ## File Descriptions <a name="files"></a>
 
-There are 2 notebooks available as part of preparation for the executanle ETL (process_data.py) end ML (train_classifier.py) pipelines in the Notebooks folder
+There are 2 Jupyter notebooks available as part of preparation for the executanle ETL (process_data.py) end ML (train_classifier.py) pipelines in the `notebooks` folder. This folder contains also outputs of the notebooks.
 
-The ETL pipeline process_data.py as well as the source dsata files and the cleaned data base are in the Data folder.
+The ETL pipeline process_data.py as well as the source dsata files and the cleaned data base are in the `data` folder.
 
-The ML pipeline ML train_classifier.py and the ML model.pkl are in the Models folder.
+The ML pipeline ML train_classifier.py and the ML model.pkl are in the `models` folder.
 
-The Flask application and HTML templates are in the App folder
+The Flask application and HTML templates are in the `app` folder
 
 
 ## Results<a name="results"></a>
